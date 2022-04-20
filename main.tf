@@ -85,8 +85,8 @@ module "eks" {
     application = {
       name_prefix      = "hashicups"
       instance_types   = ["t3a.medium"]
-      desired_capacity = 4
-      max_capacity     = 6
+      desired_capacity = 3
+      max_capacity     = 3
       min_capacity     = 3
     }
   }
